@@ -25,8 +25,15 @@ import {MatDividerModule} from '@angular/material/divider';
 
 
 
+
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContactformComponent } from './contactform/contactform.component';
+import { AddressFormComponent } from './address-form/address-form.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -40,6 +47,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     CarouselComponent,
     FooterComponent,
+    ContactformComponent,
+    AddressFormComponent,
   ],
   imports: [
     BrowserModule,
@@ -65,7 +74,23 @@ import { FooterComponent } from './footer/footer.component';
 
    
 
-    NgbModule
+    NgbModule,
+
+   
+
+    MatInputModule,
+
+   
+
+    MatSelectModule,
+
+   
+
+    MatRadioModule,
+
+   
+
+    ReactiveFormsModule
 
     
     
