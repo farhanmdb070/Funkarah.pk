@@ -15,13 +15,23 @@ import { HomeComponent } from './home/home.component';
 import { ShopComponent } from './shop/shop.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ShopComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +42,21 @@ import { ContactComponent } from './contact/contact.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+
+
+
+
+    MDBBootstrapModule.forRoot(),
+    CarouselModule, WavesModule,
+    MdbCarouselModule,
+
+   
+
+    NgbModule
+
     
     
   ],
