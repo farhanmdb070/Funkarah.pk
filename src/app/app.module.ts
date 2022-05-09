@@ -34,6 +34,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { ReactiveFormsModule } from '@angular/forms';
+import { Iframe1Component } from './iframe1/iframe1.component';
 
 
 
@@ -49,6 +50,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     ContactformComponent,
     AddressFormComponent,
+    Iframe1Component,
   ],
   imports: [
     BrowserModule,

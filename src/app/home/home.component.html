@@ -1,6 +1,6 @@
 
+<img alt="item" [src]="">
 
-  <app-carousel class=" mb-3 "></app-carousel>
 
 <mat-divider class="mt-1"></mat-divider>
 
@@ -11,23 +11,19 @@
 <div class="m-0">
 
   
-
-    <mat-grid-list cols="4" rowHeight="25vh" class="mt-0">
-        <mat-grid-tile
-            *ngFor="let tile of tiles"
-            [colspan]="tile.cols"
-            [rowspan]="tile.rows"
-            [style.background]="tile.color">
-          {{tile.text}}
-        </mat-grid-tile>
-      </mat-grid-list>
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile><app-carousel></app-carousel></mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+  </mat-grid-list>
 
     </div>
 
 
-        <div class=" text-center gap-2 pb-2 mt-0 bg-info pt-2">
-          <span class="z-depth-5 bg-info">
-            <button class="btn-sm border-dark btn-dark text" type="button">VIEW MORE AT SHOP</button>
+        <div class=" text-center gap-2 pb-2 mt-0 bg-info">
+          <span class="z-depth-4 bg-dark">
+            <button class="btn-sm border-light btn-dark text" type="button">View More</button>
          </span>
         </div> 
     <mat-divider></mat-divider>
