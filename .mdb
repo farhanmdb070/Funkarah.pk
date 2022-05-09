@@ -4,5 +4,6 @@
     "type": "frontend"
   },
   "packageManager": "npm",
-  "hash": "ee8cd085"
+  "hash": "ee8cd085",
+  "domain": "funkarah-dev.mdbgo.io"
 }
